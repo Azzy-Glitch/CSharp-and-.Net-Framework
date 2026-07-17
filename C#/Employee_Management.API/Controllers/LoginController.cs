@@ -1,4 +1,5 @@
-﻿using Employee_Management.API.Dtos;
+﻿using Employee_Management.API.Data;
+using Employee_Management.API.Dtos;
 using Employee_Management.API.Model;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,18 +9,25 @@ namespace Employee_Management.API.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
-        public static List<Login> users = new List<Login>();
+        //public static List<Login> users = new List<Login>();
+
+        private readonly EmployeeDbContext _logger;
+
+        public LoginController(EmployeeDbContext logger)
+        {
+            _logger = logger;
+        }
 
         [HttpGet("UserData")]
 
         public List<Login> GetUsers()
         {
-            if (users.Count == 0)
+            if (!_logger.Logins.Any())
             {
                 return new List<Login>();
             }
 
-            return users;
+            return _logger.Logins.ToList();
         }
 
         [HttpPost("UserValidation")]
@@ -36,8 +44,8 @@ namespace Employee_Management.API.Controllers
                 Password = dto.Password
             };
 
-            users.Add(user);
-
+            _logger.Logins.Add(user);
+            _logger.SaveChanges();
             return Ok("User added successfully.");
         }
     }

@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Employee_Management.API.Helper;
+using System.ComponentModel.DataAnnotations;
 
 namespace Employee_Management.API.Dtos
 {
-    public class LoginDto
+    public class LoginDto: Identity
     {
         [EmailAddress]
         public required string Email { get; set; }

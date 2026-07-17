@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|d:\\git repository\\c#  and .net framework\\c#\\projects\\bookstoreapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|d:\\git repository\\c#  and .net framework\\c#\\projects\\bookstoreapi\\data\\bookstoreapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|solutionrelative:data\\bookstoreapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|d:\\git repository\\c#  and .net framework\\c#\\projects\\bookstoreapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +19,16 @@
       "RelativeMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|d:\\git repository\\c#  and .net framework\\c#\\projects\\bookstoreapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|d:\\git repository\\c#  and .net framework\\c#\\projects\\bookstoreapi\\data\\bookstoreapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|solutionrelative:data\\bookstoreapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|d:\\git repository\\c#  and .net framework\\c#\\projects\\bookstoreapi\\migrations\\20260706202814_book model added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|solutionrelative:migrations\\20260706202814_book model added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|d:\\git repository\\c#  and .net framework\\c#\\projects\\bookstoreapi\\bookstoreapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|solutionrelative:bookstoreapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|d:\\git repository\\c#  and .net framework\\c#\\projects\\bookstoreapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|d:\\git repository\\c#  and .net framework\\c#\\projects\\bookstoreapi\\migrations\\20260706202814_book model added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|solutionrelative:migrations\\20260706202814_book model added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|d:\\git repository\\c#  and .net framework\\c#\\projects\\bookstoreapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{39523F17-2735-F991-E519-E3E233A9874D}|BookStoreApi.csproj|d:\\git repository\\c#  and .net framework\\c#\\projects\\bookstoreapi\\migrations\\20260707101746_book data added.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,60 +46,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
-              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T18:30:36.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T19:11:38.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BookStoreApiContext.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Data\\BookStoreApiContext.cs",
               "RelativeDocumentMoniker": "Data\\BookStoreApiContext.cs",
               "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Data\\BookStoreApiContext.cs",
               "RelativeToolTip": "Data\\BookStoreApiContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-06T18:46:39.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-06T18:31:47.007Z"
+              "WhenOpened": "2026-07-06T18:31:47.007Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BookStoreApi.http",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\BookStoreApi.http",
               "RelativeDocumentMoniker": "BookStoreApi.http",
@@ -111,27 +87,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20260706202814_Book Model added.cs",
-              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Migrations\\20260706202814_Book Model added.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260706202814_Book Model added.cs",
-              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Migrations\\20260706202814_Book Model added.cs",
-              "RelativeToolTip": "Migrations\\20260706202814_Book Model added.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T20:28:16.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
               "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Models\\Book.cs",
               "RelativeToolTip": "Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-05T18:30:04.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T18:30:36.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T19:11:38.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260706202814_Book Model added.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Migrations\\20260706202814_Book Model added.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260706202814_Book Model added.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\C#\\Projects\\BookStoreApi\\Migrations\\20260706202814_Book Model added.cs",
+              "RelativeToolTip": "Migrations\\20260706202814_Book Model added.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T20:28:16.664Z"
             },
             {
               "$type": "Document",
