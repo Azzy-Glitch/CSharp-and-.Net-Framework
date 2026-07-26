@@ -9,5 +9,6 @@ namespace Employee_Management.API.Model
         public double Salary { get; set; } = 0;
         public string Email { get; set; } = string.Empty;
         public string Designation { get; set; } = string.Empty;
+        public Login? Login { get; internal set; }
     }
 }

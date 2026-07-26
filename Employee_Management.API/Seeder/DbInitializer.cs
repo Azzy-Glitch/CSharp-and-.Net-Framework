@@ -23,4 +23,21 @@ public static class DbInitializer
         await context.Employees.AddRangeAsync(employees);
         await context.SaveChangesAsync();
     }
+    public static async Task SeedLogins(EmployeeDbContext context)
+    {
+        if (context.Logins.Any())
+            return;
+
+        var logins = new List<Login>
+        {
+            new Login
+            {
+                Email = "admin@test.com",
+                PasswordHash = "hashed_password"
+            }
+        };
+
+        await context.Logins.AddRangeAsync(logins);
+        await context.SaveChangesAsync();
+    }
 }

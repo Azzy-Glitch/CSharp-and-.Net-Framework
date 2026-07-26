@@ -347,25 +347,25 @@ namespace Employee_Management.API.Controllers
         }
 
         // POST: api/Employee/AddEmployee
-        [HttpPost("AddEmployee")]
-        public async Task<ActionResult<List<Employee>>> AddEmployee(EmployeeDto employeeDto)
-        {
-            var employee = new Employee
-            {
-                Name = employeeDto.DName,
-                Department = employeeDto.DDepartment,
-                Designation = employeeDto.DDesignation,
-                Salary = employeeDto.DSalary,
-                Email = employeeDto.DEmail
-            };
+        //[HttpPost("AddEmployee")]
+        //public async Task<ActionResult<List<Employee>>> AddEmployee(EmployeeDto employeeDto)
+        //{
+        //    var employee = new Employee
+        //    {
+        //        Name = employeeDto.DName,
+        //        Department = employeeDto.DDepartment,
+        //        Designation = employeeDto.DDesignation,
+        //        Salary = employeeDto.DSalary,
+        //        Email = employeeDto.DEmail
+        //    };
 
-            await _context.Employees.AddAsync(employee);
-            await _context.SaveChangesAsync();
+        //    await _context.Employees.AddAsync(employee);
+        //    await _context.SaveChangesAsync();
 
-            var employees = await _context.Employees.ToListAsync();
+        //    var employees = await _context.Employees.ToListAsync();
 
-            return Ok(employees);
-        }
+        //    return Ok(employees);
+        //}
 
         // PUT: api/Employee/UpdateEmployee
         [HttpPut("UpdateEmployee")]
@@ -376,10 +376,10 @@ namespace Employee_Management.API.Controllers
             if (existingEmployee == null)
                 return NotFound();
 
-            existingEmployee.Name = employeeDto.DName;
-            existingEmployee.Department = employeeDto.DDepartment;
-            existingEmployee.Salary = employeeDto.DSalary;
-            existingEmployee.Email = employeeDto.DEmail;
+            existingEmployee.Name = employeeDto.Name;
+            existingEmployee.Department = employeeDto.Department;
+            existingEmployee.Salary = employeeDto.Salary;
+            //existingEmployee.Email = employeeDto.Email;
 
             await _context.SaveChangesAsync();
 

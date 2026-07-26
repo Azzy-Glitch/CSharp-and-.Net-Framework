@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UrHCGdyKy2Y=",
+  "dgSpecHash": "5DO4PqCK6H4=",
   "success": true,
   "projectFilePath": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Employee_Management.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\830\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\830\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
+    "C:\\Users\\830\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\830\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\830\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
     "C:\\Users\\830\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",

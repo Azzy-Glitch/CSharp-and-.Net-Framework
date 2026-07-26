@@ -96,25 +96,25 @@ namespace Employee_Management.API.Controllers
             return Ok(users);
         }
 
-        [HttpPost("UserValidation")]
-        public async Task<ActionResult> AddUser(LoginDto dto)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+        //[HttpPost("UserValidation")]
+        //public async Task<ActionResult> AddUser(LoginDto dto)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
 
-            var user = new Login
-            {
-                Email = dto.DEmail,
-                Password = dto.DPassword
-            };
+        //    var user = new Login
+        //    {
+        //        Email = dto.Email,
+        //        PasswordHash = dto.Password
+        //    };
 
-            await _logger.Logins.AddAsync(user);
-            await _logger.SaveChangesAsync();
+        //    await _logger.Logins.AddAsync(user);
+        //    await _logger.SaveChangesAsync();
 
-            return Ok("User added successfully.");
-        }
+        //    return Ok("User added successfully.");
+        //}
 
         [HttpPut("{id}")]
         public async Task<ActionResult<Login>> UpdateUser(int id, LoginDto dto)
@@ -126,8 +126,8 @@ namespace Employee_Management.API.Controllers
                 return NotFound();
             }
 
-            user.Email = dto.DEmail;
-            user.Password = dto.DPassword;
+            user.Email = dto.Email;
+            user.PasswordHash = dto.Password;
 
             await _logger.SaveChangesAsync();
 
@@ -148,6 +148,19 @@ namespace Employee_Management.API.Controllers
             await _logger.SaveChangesAsync();
 
             return Ok("User deleted successfully.");
+        }
+
+        [HttpPost("ResetAndSeed")]
+        public async Task<IActionResult> ResetAndSeed()
+        {
+            _logger.Employees.RemoveRange(_logger.Employees);
+            await _logger.SaveChangesAsync();
+
+            await _logger.Database.ExecuteSqlRawAsync("DBCC CHECKIDENT ('Logins', RESEED, 0)");
+
+            await DbInitializer.SeedLogins(_logger);
+
+            return Ok("Database reset and seeded.");
         }
     }
 }
