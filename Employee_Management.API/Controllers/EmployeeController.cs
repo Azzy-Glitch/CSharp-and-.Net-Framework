@@ -346,45 +346,54 @@ namespace Employee_Management.API.Controllers
             return Ok(employees);
         }
 
-        // POST: api/Employee/AddEmployee
+        //// POST: api/Employee/AddEmployee
         //[HttpPost("AddEmployee")]
-        //public async Task<ActionResult<List<Employee>>> AddEmployee(EmployeeDto employeeDto)
+        //public async Task<ActionResult<Employee>> AddEmployee(EmployeeDto employeeDto)
         //{
+        //    if (!ModelState.IsValid)
+        //        return BadRequest(ModelState);
+
+        //    //var emailTaken = await _context.Employees.AnyAsync(x => x.Email == employeeDto.Email);
+        //    //if (emailTaken)
+        //    //    return Conflict("An employee with this email already exists.");
+
         //    var employee = new Employee
         //    {
-        //        Name = employeeDto.DName,
-        //        Department = employeeDto.DDepartment,
-        //        Designation = employeeDto.DDesignation,
-        //        Salary = employeeDto.DSalary,
-        //        Email = employeeDto.DEmail
+        //        Name = employeeDto.Name,
+        //        Department = employeeDto.Department,
+        //        Designation = employeeDto.Designation,
+        //        Salary = employeeDto.Salary,
+        //        //Email = employeeDto.Email
         //    };
 
         //    await _context.Employees.AddAsync(employee);
         //    await _context.SaveChangesAsync();
 
-        //    var employees = await _context.Employees.ToListAsync();
-
-        //    return Ok(employees);
+        //    return Ok(employee);
         //}
 
         // PUT: api/Employee/UpdateEmployee
         [HttpPut("UpdateEmployee")]
-        public async Task<ActionResult<List<Employee>>> UpdateEmployee(EmployeeDto employeeDto)
+        public async Task<ActionResult<Employee>> UpdateEmployee(EmployeeDto employeeDto)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             var existingEmployee = await _context.Employees.FirstOrDefaultAsync(x => x.Id == employeeDto.Id);
 
             if (existingEmployee == null)
                 return NotFound();
 
             existingEmployee.Name = employeeDto.Name;
+            existingEmployee.PhoneNumber = employeeDto.PhoneNumber;
             existingEmployee.Department = employeeDto.Department;
+            existingEmployee.Designation = employeeDto.Designation;
             existingEmployee.Salary = employeeDto.Salary;
             //existingEmployee.Email = employeeDto.Email;
 
             await _context.SaveChangesAsync();
 
-            var employees = await _context.Employees.ToListAsync();
-            return Ok(employees);
+            return Ok(existingEmployee);
         }
 
         // DELETE: api/Employee/DeleteEmployee/1
@@ -403,6 +412,7 @@ namespace Employee_Management.API.Controllers
             return Ok(employees);
         }
 
+        // POST: api/Employee/ResetAndSeed
         [HttpPost("ResetAndSeed")]
         public async Task<IActionResult> ResetAndSeed()
         {
@@ -413,7 +423,7 @@ namespace Employee_Management.API.Controllers
 
             await DbInitializer.SeedEmployees(_context);
 
-            return Ok("Database reset and seeded.");
+            return Ok("Employees reset and seeded.");
         }
     }
 }

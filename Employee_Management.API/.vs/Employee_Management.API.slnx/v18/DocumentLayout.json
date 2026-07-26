@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\seeder\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:seeder\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,16 +31,24 @@
       "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:model\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\data\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:data\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\helper\\audittrial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:helper\\audittrial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\seeder\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:seeder\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\helper\\audittrial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:helper\\audittrial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "PasswordHelper.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Helper\\PasswordHelper.cs",
               "RelativeDocumentMoniker": "Helper\\PasswordHelper.cs",
@@ -78,18 +78,17 @@
               "RelativeToolTip": "Helper\\PasswordHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T15:27:51.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-26T15:27:51.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RegisterController.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Controllers\\RegisterController.cs",
               "RelativeDocumentMoniker": "Controllers\\RegisterController.cs",
               "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Controllers\\RegisterController.cs",
               "RelativeToolTip": "Controllers\\RegisterController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwCQAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-26T15:01:17.853Z",
               "EditorCaption": ""
@@ -102,7 +101,7 @@
               "RelativeDocumentMoniker": "Dtos\\RegisterDto.cs",
               "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Dtos\\RegisterDto.cs",
               "RelativeToolTip": "Dtos\\RegisterDto.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwAgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-26T13:07:26.639Z",
               "EditorCaption": ""
@@ -117,12 +116,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAIBJwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T17:16:57.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-18T17:16:57.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Seeder\\DbInitializer.cs",
               "RelativeDocumentMoniker": "Seeder\\DbInitializer.cs",
@@ -130,8 +128,7 @@
               "RelativeToolTip": "Seeder\\DbInitializer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T17:09:42.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-18T17:09:42.866Z"
             },
             {
               "$type": "Document",
@@ -143,12 +140,11 @@
               "RelativeToolTip": "Helper\\identity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T13:18:03.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-18T13:18:03.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Audittrial.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Helper\\Audittrial.cs",
               "RelativeDocumentMoniker": "Helper\\Audittrial.cs",
@@ -156,64 +152,63 @@
               "RelativeToolTip": "Helper\\Audittrial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-18T13:18:00.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-18T13:18:00.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Model\\Employee.cs",
               "RelativeDocumentMoniker": "Model\\Employee.cs",
               "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Model\\Employee.cs",
               "RelativeToolTip": "Model\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-18T13:17:53.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Dtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "Dtos\\LoginDto.cs",
               "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Dtos\\LoginDto.cs",
               "RelativeToolTip": "Dtos\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-11T12:44:52.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
               "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAJIBAAAAAAAAAAAuwJ8BAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAJoBAAAAAAAAAAAuwIMBAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-05T11:59:11.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Model\\Login.cs",
               "RelativeDocumentMoniker": "Model\\Login.cs",
               "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Model\\Login.cs",
               "RelativeToolTip": "Model\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-11T12:43:38.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "EmployeeDto.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Dtos\\EmployeeDto.cs",
               "RelativeDocumentMoniker": "Dtos\\EmployeeDto.cs",
@@ -226,26 +221,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "EmployeeDbContext.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Data\\EmployeeDbContext.cs",
               "RelativeDocumentMoniker": "Data\\EmployeeDbContext.cs",
               "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Data\\EmployeeDbContext.cs",
               "RelativeToolTip": "Data\\EmployeeDbContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwDMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-12T11:56:33.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
               "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management.API\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAQwKEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAowJoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-11T12:48:50.785Z",
               "EditorCaption": ""

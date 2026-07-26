@@ -67,7 +67,7 @@
 
 using Employee_Management.API.Data;
 using Employee_Management.API.Dtos;
-using Employee_Management.API.Model;
+using Employee_Management.API.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -77,90 +77,89 @@ namespace Employee_Management.API.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
-        private readonly EmployeeDbContext _logger;
+        private readonly EmployeeDbContext _context;
 
-        public LoginController(EmployeeDbContext logger)
+        public LoginController(EmployeeDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
+        // GET: api/Login/UserData
         [HttpGet("UserData")]
-        public async Task<ActionResult<List<Login>>> GetUsers()
+        public async Task<ActionResult> GetUsers()
         {
-            if (!await _logger.Logins.AnyAsync())
-            {
-                return BadRequest("No users found.");
-            }
+            var users = await _context.Logins
+                .Select(x => new { x.Id, x.Email })
+                .ToListAsync();
 
-            var users = await _logger.Logins.ToListAsync();
+            if (!users.Any())
+                return NotFound("No users found.");
+
             return Ok(users);
         }
 
-        //[HttpPost("UserValidation")]
-        //public async Task<ActionResult> AddUser(LoginDto dto)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
-
-        //    var user = new Login
-        //    {
-        //        Email = dto.Email,
-        //        PasswordHash = dto.Password
-        //    };
-
-        //    await _logger.Logins.AddAsync(user);
-        //    await _logger.SaveChangesAsync();
-
-        //    return Ok("User added successfully.");
-        //}
-
-        [HttpPut("{id}")]
-        public async Task<ActionResult<Login>> UpdateUser(int id, LoginDto dto)
+        // POST: api/Login/Authenticate
+        [HttpPost("Authenticate")]
+        public async Task<ActionResult> Authenticate(LoginDto dto)
         {
-            var user = await _logger.Logins.FirstOrDefaultAsync(x => x.Id == id);
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-            if (user == null)
-            {
-                return NotFound();
-            }
+            var user = await _context.Logins.FirstOrDefaultAsync(x => x.Email == dto.Email);
 
-            user.Email = dto.Email;
-            user.PasswordHash = dto.Password;
+            if (user == null || !PasswordHelper.VerifyPassword(dto.Password, user.PasswordHash))
+                return Unauthorized("Invalid email or password.");
 
-            await _logger.SaveChangesAsync();
-
-            return Ok(user);
+            return Ok(new { user.Id, user.Email });
         }
 
-        [HttpDelete("{id}")]
-        public async Task<ActionResult<Login>> DeleteUser(int id)
+        // PUT: api/Login/5
+        [HttpPut("{id}")]
+        public async Task<ActionResult> UpdateUser(int id, LoginDto dto)
         {
-            var user = await _logger.Logins.FirstOrDefaultAsync(x => x.Id == id);
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var user = await _context.Logins.FirstOrDefaultAsync(x => x.Id == id);
 
             if (user == null)
-            {
                 return NotFound();
-            }
 
-            _logger.Logins.Remove(user);
-            await _logger.SaveChangesAsync();
+            user.Email = dto.Email;
+            user.PasswordHash = PasswordHelper.HashPassword(dto.Password);
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new { user.Id, user.Email });
+        }
+
+        // DELETE: api/Login/5
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteUser(int id)
+        {
+            var user = await _context.Logins.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (user == null)
+                return NotFound();
+
+            _context.Logins.Remove(user);
+            await _context.SaveChangesAsync();
 
             return Ok("User deleted successfully.");
         }
 
+        // POST: api/Login/ResetAndSeed
         [HttpPost("ResetAndSeed")]
         public async Task<IActionResult> ResetAndSeed()
         {
-            _logger.Employees.RemoveRange(_logger.Employees);
-            await _logger.SaveChangesAsync();
+            _context.Logins.RemoveRange(_context.Logins);
+            await _context.SaveChangesAsync();
 
-            await _logger.Database.ExecuteSqlRawAsync("DBCC CHECKIDENT ('Logins', RESEED, 0)");
+            await _context.Database.ExecuteSqlRawAsync("DBCC CHECKIDENT ('Logins', RESEED, 0)");
 
-            await DbInitializer.SeedLogins(_logger);
+            await DbInitializer.SeedLogins(_context);
 
-            return Ok("Database reset and seeded.");
+            return Ok("Logins reset and seeded.");
         }
     }
 }

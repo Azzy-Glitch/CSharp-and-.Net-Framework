@@ -46,6 +46,12 @@ namespace Employee_Management.API.Data
             modelBuilder.Entity<Login>()
                 .HasIndex(x => x.Email)
                 .IsUnique();
+
+            modelBuilder.Entity<Employee>()
+               .HasOne(e => e.Login)
+               .WithOne(l => l.Employee)
+               .HasForeignKey<Login>(l => l.EmployeeId)
+               .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }
