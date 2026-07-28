@@ -19,9 +19,9 @@ namespace Employee_Management.API.Data
                 .Property(e => e.Name)
                 .HasMaxLength(100);
 
-            modelBuilder.Entity<Employee>()
-                .Property(e => e.Email)
-                .HasMaxLength(100);
+            //modelBuilder.Entity<Employee>()
+            //    .Property(e => e.Email)
+            //    .HasMaxLength(100);
 
             modelBuilder.Entity<Employee>()
                 .Property(e => e.Designation)
@@ -35,9 +35,9 @@ namespace Employee_Management.API.Data
                 .Property(e => e.IsDeleted)
                 .HasDefaultValue(false);
 
-            modelBuilder.Entity<Employee>()
-                .HasIndex(e => e.Email)
-                .IsUnique();
+            //modelBuilder.Entity<Employee>()
+            //    .HasIndex(e => e.Email)
+            //    .IsUnique();
 
             modelBuilder.Entity<Login>()
                 .Property(x => x.Email)

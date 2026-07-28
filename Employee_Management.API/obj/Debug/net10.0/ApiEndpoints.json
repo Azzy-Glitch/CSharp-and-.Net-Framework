@@ -47,32 +47,6 @@
   },
   {
     "ContainingType": "Employee_Management.API.Controllers.EmployeeController",
-    "Method": "AddEmployee",
-    "RelativePath": "api/Employee/AddEmployee",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "employeeDto",
-        "Type": "Employee_Management.API.Model.EmployeeDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[Employee_Management.API.Model.Employee, Employee_Management.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Employee_Management.API.Controllers.EmployeeController",
     "Method": "DeleteEmployee",
     "RelativePath": "api/Employee/DeleteEmployee/{id}",
     "HttpMethod": "DELETE",
@@ -149,7 +123,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Employee_Management.API.Model.Employee, Employee_Management.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Employee_Management.API.Model.Employee",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -178,17 +152,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Employee_Management.API.Model.Login",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Employee_Management.API.Controllers.LoginController",
@@ -204,17 +168,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Employee_Management.API.Model.Login",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Employee_Management.API.Controllers.LoginController",
+    "Method": "ResetAndSeed",
+    "RelativePath": "api/Login/ResetAndSeed",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Employee_Management.API.Controllers.LoginController",
@@ -224,29 +188,19 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[Employee_Management.API.Model.Login, Employee_Management.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "Employee_Management.API.Controllers.LoginController",
-    "Method": "AddUser",
-    "RelativePath": "api/Login/UserValidation",
+    "ContainingType": "Employee_Management.API.Controllers.RegisterController",
+    "Method": "Register",
+    "RelativePath": "api/Register/Register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "Employee_Management.API.Dtos.LoginDto",
+        "Type": "RegisterDto",
         "IsRequired": true
       }
     ],

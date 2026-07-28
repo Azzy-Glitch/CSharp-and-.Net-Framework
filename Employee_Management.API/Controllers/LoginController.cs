@@ -99,19 +99,19 @@ namespace Employee_Management.API.Controllers
         }
 
         // POST: api/Login/Authenticate
-        [HttpPost("Authenticate")]
-        public async Task<ActionResult> Authenticate(LoginDto dto)
-        {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+        //[HttpPost("Authenticate")]
+        //public async Task<ActionResult> Authenticate(LoginDto dto)
+        //{
+        //    if (!ModelState.IsValid)
+        //        return BadRequest(ModelState);
 
-            var user = await _context.Logins.FirstOrDefaultAsync(x => x.Email == dto.Email);
+        //    var user = await _context.Logins.FirstOrDefaultAsync(x => x.Email == dto.Email);
 
-            if (user == null || !PasswordHelper.VerifyPassword(dto.Password, user.PasswordHash))
-                return Unauthorized("Invalid email or password.");
+        //    if (user == null || !PasswordHelper.VerifyPassword(dto.Password, user.PasswordHash))
+        //        return Unauthorized("Invalid email or password.");
 
-            return Ok(new { user.Id, user.Email });
-        }
+        //    return Ok(new { user.Id, user.Email });
+        //}
 
         // PUT: api/Login/5
         [HttpPut("{id}")]

@@ -131,63 +131,6 @@
         }
       }
     },
-    "/api/Employee/AddEmployee": {
-      "post": {
-        "tags": [
-          "Employee"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/EmployeeDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/EmployeeDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/EmployeeDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Employee"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Employee"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Employee"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/api/Employee/UpdateEmployee": {
       "put": {
         "tags": [
@@ -218,26 +161,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Employee"
-                  }
+                  "$ref": "#/components/schemas/Employee"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Employee"
-                  }
+                  "$ref": "#/components/schemas/Employee"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Employee"
-                  }
+                  "$ref": "#/components/schemas/Employee"
                 }
               }
             }
@@ -313,63 +247,6 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Login"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Login"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Login"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/Login/UserValidation": {
-      "post": {
-        "tags": [
-          "Login"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/LoginDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/LoginDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/LoginDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
             "description": "OK"
           }
         }
@@ -412,24 +289,7 @@
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Login"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Login"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Login"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -450,24 +310,50 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Login"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Login"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Login"
-                }
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Login/ResetAndSeed": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Register/Register": {
+      "post": {
+        "tags": [
+          "Register"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDto"
               }
             }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -531,6 +417,10 @@
             "type": "string",
             "nullable": true
           },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
           "department": {
             "type": "string",
             "nullable": true
@@ -539,26 +429,24 @@
             "type": "number",
             "format": "double"
           },
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
           "designation": {
             "type": "string",
             "nullable": true
+          },
+          "login": {
+            "$ref": "#/components/schemas/Login"
           }
         },
         "additionalProperties": false
       },
       "EmployeeDto": {
         "required": [
-          "dDepartment",
-          "dDesignation",
-          "dEmail",
-          "dName",
-          "dPhoneNumber",
-          "dSalary",
-          "id"
+          "department",
+          "designation",
+          "id",
+          "name",
+          "phoneNumber",
+          "salary"
         ],
         "type": "object",
         "properties": {
@@ -566,31 +454,26 @@
             "type": "integer",
             "format": "int32"
           },
-          "dName": {
+          "name": {
             "type": "string",
             "nullable": true
           },
-          "dPhoneNumber": {
+          "phoneNumber": {
             "pattern": "^(\\+92|0)3\\d{9}$",
             "type": "string",
             "nullable": true
           },
-          "dDepartment": {
+          "department": {
             "type": "string",
             "nullable": true
           },
-          "dDesignation": {
+          "designation": {
             "type": "string",
             "nullable": true
           },
-          "dSalary": {
+          "salary": {
             "type": "number",
             "format": "double"
-          },
-          "dEmail": {
-            "type": "string",
-            "format": "email",
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -609,18 +492,25 @@
             "type": "string",
             "nullable": true
           },
-          "password": {
+          "passwordHash": {
             "type": "string",
             "nullable": true
+          },
+          "employeeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "employee": {
+            "$ref": "#/components/schemas/Employee"
           }
         },
         "additionalProperties": false
       },
       "LoginDto": {
         "required": [
-          "dEmail",
-          "dPassword",
-          "id"
+          "email",
+          "id",
+          "password"
         ],
         "type": "object",
         "properties": {
@@ -628,15 +518,49 @@
             "type": "integer",
             "format": "int32"
           },
-          "dEmail": {
+          "email": {
             "type": "string",
             "format": "email",
             "nullable": true
           },
-          "dPassword": {
+          "password": {
             "pattern": "^[A-Z].{7,}$",
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegisterDto": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "department": {
+            "type": "string",
+            "nullable": true
+          },
+          "designation": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "salary": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
@@ -672,6 +596,9 @@
     },
     {
       "name": "Login"
+    },
+    {
+      "name": "Register"
     },
     {
       "name": "WeatherForecast"

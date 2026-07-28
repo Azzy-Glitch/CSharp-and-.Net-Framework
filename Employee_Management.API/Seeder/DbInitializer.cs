@@ -16,7 +16,7 @@ public static class DbInitializer
                 Department = "IT",
                 Designation = "Manager",
                 Salary = 99090,
-                Email = "admin@test.com"
+                //Email = "admin@test.com"
             }
         };
 
