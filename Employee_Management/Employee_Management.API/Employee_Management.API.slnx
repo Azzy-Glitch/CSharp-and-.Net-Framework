@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../EmployeeManagement.Application/EmployeeManagement.Application.csproj" Id="30ef2f38-2ac9-448b-9596-26b05e97f1d9" />
+  <Project Path="../EmployeeManagement.Domain/EmployeeManagement.Domain.csproj" Id="f83e2087-d20e-491a-9f0f-ee11ae675672" />
+  <Project Path="../EmployeeManagement.Infrastructure/EmployeeManagement.Infrastructure.csproj" Id="bd567fd8-a174-4d81-b86d-12141603d86d" />
+  <Project Path="Employee_Management.API.csproj" />
+</Solution>

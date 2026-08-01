@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Employee_Management.API",
+    "\\Employee_Management.API\\Controllers",
+    "\\Employee_Management.API\\Data",
+    "\\Employee_Management.API\\Dtos",
+    "\\Employee_Management.API\\Helper",
+    "\\Employee_Management.API\\Model",
+    "\\Employee_Management.API\\obj",
+    "\\Employee_Management.API\\Properties",
+    "\\Employee_Management.API\\Seeder"
+  ],
+  "SelectedNode": "\\Employee_Management.API\\Controllers\\LoginController.cs",
+  "PreviewInSolutionExplorer": false
+}
