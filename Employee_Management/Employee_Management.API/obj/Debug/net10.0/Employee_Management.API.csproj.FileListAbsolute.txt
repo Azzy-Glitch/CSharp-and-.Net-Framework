@@ -488,4 +488,3 @@ D:\Git Repository\C#  and .Net Framework\Employee_Management\Employee_Management
 D:\Git Repository\C#  and .Net Framework\Employee_Management\Employee_Management.API\bin\Debug\net10.0\Employee_Management.API.pdb
 D:\Git Repository\C#  and .Net Framework\Employee_Management\Employee_Management.API\obj\Debug\net10.0\Employee_Management.API.genruntimeconfig.cache
 D:\Git Repository\C#  and .Net Framework\Employee_Management\Employee_Management.API\obj\Debug\net10.0\ref\Employee_Management.API.dll
-D:\Git Repository\C#  and .Net Framework\Employee_Management\Employee_Management.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

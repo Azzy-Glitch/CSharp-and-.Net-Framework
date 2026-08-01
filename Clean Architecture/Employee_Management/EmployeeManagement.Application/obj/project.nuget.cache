@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "agbDD/XeSvo=",
+  "success": true,
+  "projectFilePath": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\830\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

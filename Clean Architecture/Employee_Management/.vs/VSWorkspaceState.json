@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\EmployeeManagement.Application",
+    "\\EmployeeManagement.Domain",
+    "\\EmployeeManagement.Infrastructure",
+    "\\EmployeeManagement.Infrastructure\\Data",
+    "\\EmployeeManagement.Infrastructure\\Repositories",
+    "\\EmployeeManagement.Infrastructure\\Security",
+    "\\Employee_Management.API"
+  ],
+  "SelectedNode": "\\Employee_Management.API\\Employee_Management.API.slnx",
+  "PreviewInSolutionExplorer": false
+}

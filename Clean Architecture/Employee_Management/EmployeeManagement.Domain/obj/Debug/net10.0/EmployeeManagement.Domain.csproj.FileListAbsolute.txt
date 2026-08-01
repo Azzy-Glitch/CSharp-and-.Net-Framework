@@ -1,0 +1,23 @@
+D:\Employee_Management_CleanArch\Employee_Management\EmployeeManagement.Domain\bin\Debug\net10.0\EmployeeManagement.Domain.deps.json
+D:\Employee_Management_CleanArch\Employee_Management\EmployeeManagement.Domain\bin\Debug\net10.0\EmployeeManagement.Domain.dll
+D:\Employee_Management_CleanArch\Employee_Management\EmployeeManagement.Domain\bin\Debug\net10.0\EmployeeManagement.Domain.pdb
+D:\Employee_Management_CleanArch\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Employee_Management_CleanArch\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.AssemblyInfoInputs.cache
+D:\Employee_Management_CleanArch\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.AssemblyInfo.cs
+D:\Employee_Management_CleanArch\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Employee_Management_CleanArch\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.dll
+D:\Employee_Management_CleanArch\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\refint\EmployeeManagement.Domain.dll
+D:\Employee_Management_CleanArch\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.pdb
+D:\Employee_Management_CleanArch\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\ref\EmployeeManagement.Domain.dll
+D:\Git Repository\C#  and .Net Framework\Clean Architecture\Employee_Management\EmployeeManagement.Domain\bin\Debug\net10.0\EmployeeManagement.Domain.deps.json
+D:\Git Repository\C#  and .Net Framework\Clean Architecture\Employee_Management\EmployeeManagement.Domain\bin\Debug\net10.0\EmployeeManagement.Domain.dll
+D:\Git Repository\C#  and .Net Framework\Clean Architecture\Employee_Management\EmployeeManagement.Domain\bin\Debug\net10.0\EmployeeManagement.Domain.pdb
+D:\Git Repository\C#  and .Net Framework\Clean Architecture\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Repository\C#  and .Net Framework\Clean Architecture\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.AssemblyInfoInputs.cache
+D:\Git Repository\C#  and .Net Framework\Clean Architecture\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.AssemblyInfo.cs
+D:\Git Repository\C#  and .Net Framework\Clean Architecture\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Git Repository\C#  and .Net Framework\Clean Architecture\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.sourcelink.json
+D:\Git Repository\C#  and .Net Framework\Clean Architecture\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.dll
+D:\Git Repository\C#  and .Net Framework\Clean Architecture\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\refint\EmployeeManagement.Domain.dll
+D:\Git Repository\C#  and .Net Framework\Clean Architecture\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\EmployeeManagement.Domain.pdb
+D:\Git Repository\C#  and .Net Framework\Clean Architecture\Employee_Management\EmployeeManagement.Domain\obj\Debug\net10.0\ref\EmployeeManagement.Domain.dll

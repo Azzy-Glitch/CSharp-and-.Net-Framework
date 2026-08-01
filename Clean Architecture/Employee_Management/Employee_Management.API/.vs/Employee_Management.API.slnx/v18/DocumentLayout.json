@@ -1,0 +1,518 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\Employee_Management.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD567FD8-A174-4D81-B86D-12141603D86D}|..\\EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD567FD8-A174-4D81-B86D-12141603D86D}|..\\EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.infrastructure\\data\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\seed\\employeeseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\dtos\\registerresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD567FD8-A174-4D81-B86D-12141603D86D}|..\\EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.infrastructure\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD567FD8-A174-4D81-B86D-12141603D86D}|..\\EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.infrastructure\\repositories\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD567FD8-A174-4D81-B86D-12141603D86D}|..\\EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.infrastructure\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employee_management.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\interfaces\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD567FD8-A174-4D81-B86D-12141603D86D}|..\\EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\interfaces\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\interfaces\\security\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\mapping\\loginmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\mapping\\employeemappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\interfaces\\services\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\interfaces\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\interfaces\\repositories\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\dtos\\loginsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83E2087-D20E-491A-9F0F-EE11AE675672}|..\\EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.domain\\common\\audittrial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83E2087-D20E-491A-9F0F-EE11AE675672}|..\\EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employee_management.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EF2F38-2AC9-448B-9596-26B05E97F1D9}|..\\EmployeeManagement.Application\\EmployeeManagement.Application.csproj|d:\\git repository\\c#  and .net framework\\clean architecture\\employee_management\\employeemanagement.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Repositories\\IEmployeeRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\ILoginService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\IEmployeeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Security\\IPasswordHasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Repositories\\ILoginRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeSeedData.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Seed\\EmployeeSeedData.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Seed\\EmployeeSeedData.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Seed\\EmployeeSeedData.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Seed\\EmployeeSeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:45:06.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:44:36.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Services\\EmployeeService.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:37:56.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\Employee_Management.API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\Employee_Management.API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:35:39.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginMappings.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Mapping\\LoginMappings.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Mapping\\LoginMappings.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Mapping\\LoginMappings.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Mapping\\LoginMappings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:31:38.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmployeeMappings.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Mapping\\EmployeeMappings.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Mapping\\EmployeeMappings.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Mapping\\EmployeeMappings.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Mapping\\EmployeeMappings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:30:52.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\ILoginService.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Interfaces\\Services\\ILoginService.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\ILoginService.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Interfaces\\Services\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:30:43.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Interfaces\\Services\\IEmployeeService.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\IEmployeeService.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Interfaces\\Services\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:30:16.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Interfaces\\Services\\IAuthService.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\IAuthService.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Interfaces\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:30:09.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Security\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Interfaces\\Security\\IPasswordHasher.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Security\\IPasswordHasher.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Interfaces\\Security\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:30:04.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ILoginRepository.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Repositories\\ILoginRepository.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Interfaces\\Repositories\\ILoginRepository.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Repositories\\ILoginRepository.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Interfaces\\Repositories\\ILoginRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:29:58.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Repositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Interfaces\\Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Repositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Interfaces\\Repositories\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:29:27.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterResultDto.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Dtos\\RegisterResultDto.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Dtos\\RegisterResultDto.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Dtos\\RegisterResultDto.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Dtos\\RegisterResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:29:12.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Dtos\\RegisterDto.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:29:08.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginSummaryDto.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Dtos\\LoginSummaryDto.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Dtos\\LoginSummaryDto.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Dtos\\LoginSummaryDto.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Dtos\\LoginSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:28:45.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Dtos\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Dtos\\EmployeeDto.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Dtos\\EmployeeDto.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Dtos\\EmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:28:37.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:28:25.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Infrastructure\\Security\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Infrastructure\\Security\\PasswordHasher.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Infrastructure\\Security\\PasswordHasher.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Infrastructure\\Security\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:28:22.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Audittrial.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Domain\\Common\\Audittrial.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Domain\\Common\\Audittrial.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Domain\\Common\\Audittrial.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Domain\\Common\\Audittrial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:28:08.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Infrastructure\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Infrastructure\\Data\\DbInitializer.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Infrastructure\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Infrastructure\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:27:46.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeDbContext.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Infrastructure\\Data\\EmployeeDbContext.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Infrastructure\\Data\\EmployeeDbContext.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Infrastructure\\Data\\EmployeeDbContext.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Infrastructure\\Data\\EmployeeDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:27:22.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Infrastructure\\Repositories\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Infrastructure\\Repositories\\LoginRepository.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Infrastructure\\Repositories\\LoginRepository.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Infrastructure\\Repositories\\LoginRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T11:26:42.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\Employee_Management.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\Employee_Management.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T10:39:57.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Domain\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Domain\\Entities\\Employee.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Domain\\Entities\\Employee.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Domain\\Entities\\Employee.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T10:39:35.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Application\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Clean Architecture\\Employee_Management\\EmployeeManagement.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T10:36:53.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\ILoginService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\ILoginService.cs",
+              "ToolTip": "D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\ILoginService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T10:06:31.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\IEmployeeService.cs",
+              "ToolTip": "D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\IEmployeeService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T10:06:27.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\IAuthService.cs",
+              "ToolTip": "D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\IAuthService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T10:06:23.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Security\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Security\\IPasswordHasher.cs",
+              "ToolTip": "D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Security\\IPasswordHasher.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Security\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T10:05:57.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ILoginRepository.cs",
+              "DocumentMoniker": "D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Repositories\\ILoginRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Repositories\\ILoginRepository.cs",
+              "ToolTip": "D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Repositories\\ILoginRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Repositories\\ILoginRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T10:05:49.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Repositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Repositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Employee_Management_CleanArch\\Employee_Management\\EmployeeManagement.Application\\Interfaces\\Repositories\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T10:05:33.449Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
