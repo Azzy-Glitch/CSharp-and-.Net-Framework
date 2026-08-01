@@ -1,4 +1,4 @@
-﻿using Employee_Management.API.Helper;
+﻿using EmployeeManagement.Domain.Helper;
 
 namespace EmployeeManagement.Domain.Entities
 {

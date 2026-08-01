@@ -1,5 +1,4 @@
 ﻿using EmployeeManagement.Domain.Helper;
-using System.ComponentModel.DataAnnotations;
 
 namespace EmployeeManagement.Domain.Entities
 {

@@ -3,6 +3,21 @@
   "WorkspaceRootPath": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management\\Employee_Management.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F83E2087-D20E-491A-9F0F-EE11AE675672}|..\\EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|d:\\git repository\\c#  and .net framework\\employee_management\\employeemanagement.domain\\entities\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83E2087-D20E-491A-9F0F-EE11AE675672}|..\\EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|d:\\git repository\\c#  and .net framework\\employee_management\\employeemanagement.domain\\helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83E2087-D20E-491A-9F0F-EE11AE675672}|..\\EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|d:\\git repository\\c#  and .net framework\\employee_management\\employeemanagement.domain\\helper\\audittrial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83E2087-D20E-491A-9F0F-EE11AE675672}|..\\EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|d:\\git repository\\c#  and .net framework\\employee_management\\employeemanagement.domain\\helper\\identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F83E2087-D20E-491A-9F0F-EE11AE675672}|..\\EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|d:\\git repository\\c#  and .net framework\\employee_management\\employeemanagement.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|d:\\git repository\\c#  and .net framework\\employee_management\\employee_management.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{010F511B-F1FF-A39B-AD09-0E2E3EB876E7}|Employee_Management.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +42,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management\\EmployeeManagement.Domain\\Entities\\Login.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Domain\\Entities\\Login.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management\\EmployeeManagement.Domain\\Entities\\Login.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Domain\\Entities\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T09:16:04.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management\\EmployeeManagement.Domain\\Helper\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Domain\\Helper\\PasswordHelper.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management\\EmployeeManagement.Domain\\Helper\\PasswordHelper.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Domain\\Helper\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T09:15:26.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "identity.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management\\EmployeeManagement.Domain\\Helper\\identity.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Domain\\Helper\\identity.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management\\EmployeeManagement.Domain\\Helper\\identity.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Domain\\Helper\\identity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T09:15:02.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Audittrial.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management\\EmployeeManagement.Domain\\Helper\\Audittrial.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Domain\\Helper\\Audittrial.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management\\EmployeeManagement.Domain\\Helper\\Audittrial.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Domain\\Helper\\Audittrial.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T09:14:40.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management\\EmployeeManagement.Domain\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagement.Domain\\Entities\\Employee.cs",
+              "ToolTip": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management\\EmployeeManagement.Domain\\Entities\\Employee.cs",
+              "RelativeToolTip": "..\\EmployeeManagement.Domain\\Entities\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-01T09:14:22.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management\\Employee_Management.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -39,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management\\Employee_Management.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -52,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\Git Repository\\C#  and .Net Framework\\Employee_Management\\Employee_Management.API\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
